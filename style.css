@@ -841,6 +841,7 @@ main {
 
   .productCard{
   margin-right: 4em;
+  padding-right: 0;
   }
 
   .description-and-rating-and-speed div{
@@ -852,6 +853,8 @@ main {
   }
   .productFeatures{
     font-size: 14pt;
+    width: 100%;
+    margin-right: 0;
   }
 
   .productFeatures div {
@@ -988,6 +991,15 @@ footer {
    padding: 10px;
    font-size: 10px;
   }
+
+  .middleCard {
+  width:90%;
+  margin-left: 10%;
+}
+
+.fleetBody {
+  margin-left: 20px;
+}
 }
 @media (max-width:368px) and (min-width:300px){
 
@@ -1064,6 +1076,7 @@ footer {
   margin-right: 8em;
   margin-left: 0;
   padding-left: 3em;
+  padding-right: 0;
 
   }
 
@@ -1107,9 +1120,7 @@ footer {
   width: 40%;
 }
 
-.middleCard{
-  margin-left: 0;
-}
+
 
 .middleCard div {
   font-size: 11pt;
@@ -1178,9 +1189,9 @@ footer {
   .fleet{
     margin-left: 0;
   }
-  .fleetBody {
-    margin-left: 0;
-  }
+ .fleetBody {
+  margin-left: 20px;
+}
 
   .text1,.text2 {
     font-size: 24pt;
@@ -1205,7 +1216,10 @@ footer {
    font-size: 10px;
   }
 
-
+.middleCard {
+  width:90%;
+  margin-left: 10%;
+}
  
 
 }
