@@ -504,6 +504,10 @@ footer a {
   color: rgb(198, 113, 112);
 }
 
+.image {
+  background-color: white;
+}
+
 main {
   overflow-x: hidden;
 }
@@ -820,14 +824,19 @@ main {
   }
 
   .description-and-rating-and-speed div{
-    font-size: 9pt;
+    font-size: 14pt;
   }
 
   .price-and-rent div {
-    font-size: 8pt;
+    font-size: 14pt;
   }
   .productFeatures{
-    font-size: 9pt;
+    font-size: 14pt;
+  }
+
+  .productFeatures div {
+    padding-top: 15px;
+    padding-bottom: 14px;
   }
 
   .productDescription{
@@ -838,10 +847,14 @@ main {
 .price-and-rent{
   justify-content: center;
   align-items: center;
+  padding: 20px;
 }
+
+
 
 .productPrice {
   width: 40%;
+ 
 }
 
 .middleCard{
@@ -932,9 +945,37 @@ footer {
   .icon-and-text i{
     font-size: 24pt;
   }
+
+    .text1,.text2 {
+    font-size: 24pt;
+ padding-left: 10pt;
+  }
+
+  .heroInfo{
+    font-size: 10pt;
+    padding-left: 13pt;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .button {
+    margin-top: 10px;
+    padding-left: 10px;
+    gap: 9px;
+  }
+  .startJourney,.explore {
+   padding: 0;
+   margin-top: 10px;
+   padding: 10px;
+   font-size: 10px;
+  }
 }
 @media (max-width:368px) and (min-width:300px){
 
+
+    .productFeatures div {
+    padding-top: 15px;
+    padding-bottom: 14px;
+  }
   .fleet{
     margin-left: 10px;
   }
@@ -1012,18 +1053,21 @@ footer {
 
   .productFeatures{
     margin-left: 0;
+   
   }
   .description-and-rating-and-speed div{
     font-size: 9pt;
     margin-left: 0;
+     font-size: 14pt;
   }
 
   .price-and-rent div {
-    font-size: 8pt; 
+    font-size: 13pt; 
     
   }
   .productFeatures{
     font-size: 9pt;
+     font-size: 14pt;
    
   }
 
@@ -1033,8 +1077,10 @@ footer {
 }
 
 .price-and-rent{
-  justify-content: center;
-  align-items: center;
+  width: 220px;
+  margin-left: 0;
+  padding-left: 0;
+
 }
 
 .productPrice {
