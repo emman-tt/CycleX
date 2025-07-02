@@ -1,8 +1,10 @@
 html {
   width: 100%;
   overflow-x: hidden;
-  margin-left: 0!important;
-  overflow-x: hidden;
+  margin-left: 0;
+ box-sizing: border-box;
+ padding-left: 0;
+
 }
 
 
@@ -19,6 +21,11 @@ header {
   z-index: 30;
   border-bottom: 1px solid rgb(177, 177, 177);
   overflow: hidden;
+  margin-left: 0;
+  padding-left: 0;
+  left: 0px;
+  right: 0px;
+
  
 }
 
@@ -44,6 +51,7 @@ header a {
   font-size: 44px;
   font-weight: 800;
   color: rgb(119, 119, 255);
+  
 }
 
 #header-login {
@@ -118,10 +126,14 @@ spline-viewer {
   position: absolute;
   padding-left: 0;
   background-color: rgb(15, 132, 235);
+  width: 100%;
+  overflow: hidden;
+  left: 0px;
+  right: 0px;
 }
 .spline {
-  border-radius: 1em;
-  margin-top: 0;
+  border-radius: 0em;
+ 
 }
 
 @keyframes float {
@@ -182,9 +194,6 @@ html {
   column-gap: 1em;
 
   
-
-
-
 }
 
 .productCard {
@@ -422,6 +431,8 @@ align-self: center;
 footer {
   position: absolute;
   bottom: 0;
+  left: 0;
+  right: 0;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 4fr 1fr;
@@ -429,7 +440,7 @@ footer {
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 margin-left: 0;
 width: 100%;
-overflow: hidden;
+
 }
 
 .footerHead {
@@ -1185,5 +1196,7 @@ footer {
    font-size: 10px;
   }
 
+
+ 
 
 }
