@@ -138,7 +138,7 @@ The website is fully responsive with breakpoints for:
 
 1. **Clone the repository**
    ```bash
-   git clone [repository-url]
+   git clone [https://github.com/emman-tt/CycleX]
    cd CycleX
    ```
 
@@ -169,7 +169,7 @@ The website is fully responsive with breakpoints for:
 
 ## 📞 Contact Information
 
-- **Email**: emma@gmail.com
+- **Email**: emmanuelaquarius2006@gmail.com@gmail.com
 - **Phone**: +233 5470 044 293
 - **Location**: Accra, Ghana
 - **Social Media**: Facebook, Twitter, Instagram
